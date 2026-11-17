@@ -1,0 +1,14 @@
+name: Website preview
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  site:
+    uses: refuge-larp/refuge-theme/.github/workflows/site.yml@c6e69d38e7bfdfc12d834d272a2b76205562755b
