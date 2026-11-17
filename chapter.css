@@ -5,4 +5,4 @@
 .contact-grid h3{margin-block-end:8px}
 .contact-grid p{margin-block-end:12px;color:var(--text-muted)}
 .contact-grid a{overflow-wrap:anywhere}
-.contact-note{margin-block-start:24px;padding-block-start:20px;border-block-start:1px solid var(--line);color:var(--text-muted)}
+.chapter-contacts .contact-note{max-width:none;width:100%;margin-block-start:24px;padding-block-start:20px;border-block-start:1px solid var(--line);color:var(--text-muted)}
