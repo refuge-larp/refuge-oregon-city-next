@@ -11,4 +11,4 @@ permissions:
   id-token: write
 jobs:
   site:
-    uses: refuge-larp/refuge-theme/.github/workflows/site.yml@5daba8235715766645c07783415a04c2c983024d
+    uses: refuge-larp/refuge-theme/.github/workflows/site.yml@93742fa6124569c3060b4b27a323bb8d47169d14
